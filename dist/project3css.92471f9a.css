@@ -1,0 +1,351 @@
+body {
+	background-image: url(/pandora.7dcb403a.jpg);
+}
+
+#wrapper {
+		background-color: #f2f2f2;
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 5px 5px 5px #1e1e1e;
+}
+
+h1 {
+	text-align:center;
+	font-family: sans-serif;
+	color: #8cb5db;
+	}
+	
+
+h2 {
+	color: white;
+	text-shadow: 5px 4px 5px #182628;
+	border: 5px solid #b6b6b8;
+	background-color: #0025ff
+}
+
+h3 {
+	color: purple;
+}
+  
+
+
+#logo {
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: height 2s, width 2s;
+  }
+  
+ #logo:hover {
+  height: 500px;
+  width: 500px;
+ }
+
+#symbol {
+	width:50px;
+	height:50px;
+}
+
+#poster {
+	margin-left: 0;
+	width: 500px;    
+	height: 600px;
+	transition: margin-left 2s;
+	
+}
+
+#poster:hover {
+	margin-left: 200px;
+	
+	
+}
+
+#sully {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#sully:hover {
+	 
+	transform: rotateY(180deg);  
+	
+}
+
+
+#sam {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#sam:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+
+
+
+#sigourney {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#sigourney:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#augustine {
+	width: 400px;    
+	height: 300px;
+    transition: transform 2s;
+}
+
+#augustine:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#lang {
+	width: 400px;    
+	height: 300px;
+    transition: transform 2s;
+}
+
+#lang:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#quaritch {
+	width: 400px;    
+	height: 300px;
+    transition: transform 2s;
+}
+
+#quaritch:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#zoe {
+	width: 400px;    
+	height: 300px;
+    transition: transform 2s;
+ }
+ 
+ #zoe:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#neytiri {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#neytiri:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#a:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#alonso {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#alonso:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#tsutey {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#tsutey:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#rodriguez {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#rodriguez:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+
+#trudy {
+	width: 400px;    
+	height: 300px;
+	transition: transform 2s;
+}
+
+#trudy:hover {
+	 
+	transform: rotateY(180deg);
+	
+}
+	footer {
+		font-style: italic;
+		font-size: 0.8em;
+		background-color: #8cb5db;
+		color: #f2f2f2;
+		text-align: center;		
+	}
+	
+	
+	
+	
+	
+#info {
+	list-style-type: none;
+	font-weight: bold;
+	font-family:verdana;
+}
+
+p {
+	font-size: 20px;
+}
+
+#goback {
+            padding: 1em;
+            background-color: #f2f2f2;
+            color: #0059e8;
+            font-weight: bold;
+            text-align: left;
+            border: 3px ridge #1e1e1e;
+            box-shadow: 3px 3px 3px #1f1f1f;
+            border-radius: 30px;
+            margin-left: 15px;
+        }
+        #goback:hover {
+            background-color: #041ef2;
+            color: #f2f2f2;
+        }
+		
+nav {
+	background-color: #57ba98;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 1.5em;
+	color: #f2f2f2;	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	}
+	
+nav li {
+	padding: 0.5em;
+	display: inline-block;	
+}
+nav a {
+	text-decoration: none;
+	display: block;	
+}
+nav ul ul {
+	position: absolute;
+	background-color: #65ccb8;
+	padding: 0;
+	text-align: left;
+	display: none;	
+}
+nav ul ul li {
+	border-bottom: 1px solid #f2f2f2;
+	display: block;
+	width: 8em;
+	padding-left: 1em;
+	margin-left: 0;		
+}
+nav li:hover ul {
+	display: block;	
+}
+nav a:link {
+	color: #f2f2f2;
+}
+
+nav a:hover {
+	color: #ffe4b5;
+}	
+
+nav a:visited {
+    color: #f2f2f2;
+}
+
+button {
+    border: solid transparent 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #eae8e8;
+    font-size: 14px;
+
+}
+button:hover {
+    border: solid black 3px;
+}
+
+#signin-google {
+    background-color: rgb(219,68,55);
+    color: white;
+}
+
+#signin-facebook {
+    background-color: rgb(59, 89, 152);
+    color: white;
+}
+
+#signin-twitter {
+	background-color: rgb(85, 172, 238);
+	color: white;
+}
+
+#signin-email {
+	background-color: rgb(66, 133, 244);
+	color: white;
+}
+
+#signin-phone {
+	background-color: grey;
+	color: white;
+}
+
+
+
+
+/*# sourceMappingURL=/project3css.92471f9a.css.map */

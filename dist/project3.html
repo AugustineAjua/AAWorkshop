@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+	 <title>Project 3</title>
+	<link href="/project3css.92471f9a.css" rel="stylesheet">
+	 
+	  
+
+
+<script src="/project3css.92471f9a.js"></script></head>
+<body>
+<div id="wrapper">
+<br>
+<img src="/Avatar.cda41bdf.png" id="logo">
+<br>
+<br>
+<nav>
+<ul>
+	
+	<li>Multimedia
+		<ul>
+		<li><a href="#audio">Music Theme</a></li>
+		<li><a href="#video">Movie Scene</a></li>
+		<li><a href="#image">Movie Poster</a></li>
+	
+		
+		</ul>
+		</li>
+	 <li><a href="/project3Gallery.html">Gallery</a></li>
+	<li id="appbar-signout-button"><a href="/projectlogin.html">Sign Out</a></li>
+</ul>
+</nav>
+<h2><img src="/avatarsymbol.22de7928.png" id="symbol"> &nbsp; Synopsis</h2>
+<p>
+This film, set many years into the future, stars a titular paraplegic character named Jake Sully as he is offered to participate 
+in a corporate scientific program where his mind/consciousness will be temporarily transferred into 
+the body of an artificially created alien host body called an Avatar. He then travels to a far distant planet 
+called Pandora where he is greeted by a mischievous military group called the RDA and his grumpy yet well-meaning 
+handler/leader of the scientific program Grace Augustine. With his new avatar body Jake has the ability to walk 
+again and then goes on a long tumultuous journey where he tries to gain the trust of the native alien species his avatar 
+is based of off called the Navi , falls in love, and wages war with the villainous RDA military while struggling to cope with his identity.
+</p>
+
+
+<h2><img src="/avatarsymbol.22de7928.png" id="symbol"> &nbsp; Movie Information</h2>
+<ul id="info">
+	<li>Movie Release Date: December 18th, 2009</li>
+	<li>Director: James Cameron</li>
+	<li>Box Office: 2.92 Billion USD</li>
+	<li>Budget: 237 Million USD</li>
+
+</ul>
+
+
+<h2>Review</h2>
+<p>
+This film is one of my favorite movies of all time because whenever I think about the movie or see images or clips from the movie 
+it brings me back to a simpler time in my life when 
+I was just a kid. I remember watching the film for the first time and getting immersed in this world that James Cameron created. 
+I thought that the visual effects were stunning and they still hold up to this 
+day for a film that came out in 2009. I really enjoyed the action and the drama in the film.
+It still amazes me how revolutionary this film was at the time in terms of special effects, animation, and 3-D film watching. It also amazes me how this film ended up being one of the 
+highest grossing box office films of all time.
+</p>
+
+<h2 id="audio"><img src="/avatarsymbol.22de7928.png" id="symbol"> &nbsp; My favorite music theme from the film</h2>
+<audio controls="controls" id="myAudio">
+	<source src="/Tsutey.mp3" type="audio/mpeg">
+
+</audio><br>
+Download the <a href="/Tsutey.mp3">music</a> (mp3)
+
+<h2 id="video"><img src="/avatarsymbol.22de7928.png" id="symbol"> &nbsp; One of my Favorite Scenes</h2>
+<video controls="controls">
+	<source src="/avatarclip.mp4" type="video/mp4">
+
+</video><br>
+Download the scene <a href="/avatarclip.mp4">here</a> (mp4)
+
+<h2 id="image"> <img src="/avatarsymbol.22de7928.png" id="symbol"> &nbsp; Favorite Movie Poster</h2>
+
+<img src="/filmposter.af04d95b.jpg" id="poster">
+
+<br>
+<br>
+<br>
+<br>
+
+<footer>This is an educational website.<br>
+        Copyright &copy; 2023 GGC Web Design<br>
+		<a href="mailto:contact@ggcweb.com">aajua@ggc.edu</a><br>
+		888-888-8888</footer>
+
+
+
+
+</div>
+
+<!-- scripts-->
+<!-- <script src="../firebase/firebaseConfiguration.js"></script>
+<script src="../firebaseAuthentication.js"></script>
+<script>
+    const signOutButton = document.getElementById('signOutButton');
+    signOutButton.addEventListener('click', signOut);
+</script> -->
+<script>document.addEventListener('DOMContentLoaded', function () {
+  var loginMessage = localStorage.getItem('loginMessage');
+  if (loginMessage) {
+    console.log(loginMessage);
+    localStorage.removeItem('loginMessage'); // Remove the message to prevent logging it again
+  }
+});</script>
+</body>
+</html>
